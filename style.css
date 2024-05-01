@@ -1,0 +1,152 @@
+/* GENERAL SECTION */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    transition: all 300ms ease;
+}
+/* NAVIGATION SECTION */
+
+.nav-container {
+    background-color: #e8e5e480; /* Background color for the container */
+    border-radius: 30px; /* Round container */
+    padding: 5px;
+    margin: 20px auto;
+    max-width: 310px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 20px; /* Round buttons */
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* White background color on hover */
+}
+
+/* SECTIONS */
+
+section {
+    padding-top: 1.5vh;
+    height: 98.5vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* HOME SECTION */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #e8e5e480;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: lighter;
+}
+
+/* PROFILE SECTION */
+#profile {
+    height: 243vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+    gap: 1.5rem;
+}
+
+.profile-img {
+    border-radius: 2%;
+}
+
+/* CONTACT SECTION */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 93vh;
+}
+
+.contact-container > a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+.contact-header {
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+
+.touch-text {
+    font-size: 2rem;
+}
+/* FOOTER SECTION */
+footer {
+    box-sizing: border-box;
+    min-height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}

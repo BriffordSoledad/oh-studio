@@ -1,0 +1,25 @@
+@media screen and (max-width: 1400px) {
+    #home {
+        height: 50vh;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #profile {
+        height: 150vh;
+    }
+
+    #contact {
+        padding-bottom: 50vh;
+    }
+}
